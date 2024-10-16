@@ -45,10 +45,10 @@ This Python script fetches trending meme casts from the Neynar API, posts a comm
    ```
 
 6. Set up your environment variables:
-   - Create a `.env` file in the root of your project.
+   - Create a `.env` using cmd `nano .env` file in the root of your project.
    - Add your Farcaster mnemonic and Neynar API key:
      ```bash
-     WARPCAST_MNEMONIC="your-mnemonic"  #add your wrapcaster mnemonic
+     WARPCAST_MNEMONIC="your-mnemonic"  #add your wrapcaster mnemonic or use `export  WARPCAST_MNEMONIC="your-mnemonic"`
      ```
 
 ### Usage
