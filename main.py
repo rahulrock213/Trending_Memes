@@ -2,6 +2,9 @@ import requests
 import os
 import time
 from farcaster import Warpcast
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Load Farcaster mnemonic securely from environment variables
 MNEMONIC = os.getenv("WARPCAST_MNEMONIC")  
